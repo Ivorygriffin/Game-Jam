@@ -7,7 +7,8 @@ public class Item : MonoBehaviour
     public ItemType itemType;
     public GameController GC;
 
-    public int CS, AV, APV, CV, SV, TV, TVV; 
+    public int  AV, APV, CV, SV, TV, TVV;
+    public float CS;
 
     void Start()
     {
