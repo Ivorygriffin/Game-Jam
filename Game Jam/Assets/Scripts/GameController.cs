@@ -80,9 +80,6 @@ public class GameController : MonoBehaviour
 
   
 
-
-
-
     public void MountainClimbing()
     {
         // UI person climbs more depending on score collected
