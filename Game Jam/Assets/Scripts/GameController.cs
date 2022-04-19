@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour
     public TMP_Text ScoreText;
     public TMP_Text BallsRemaining;
     public TMP_Text PointsUntilNextCamp;
+   
 
     [Header("Ints")]
     
@@ -39,6 +40,7 @@ public class GameController : MonoBehaviour
     public int camp2Score;
     public int finalCampScore;
     public int alcoholVal, appleVal, teaVal, sleepVal, candyVal, tvVal;
+    public int currentBall, maxBalls;
     
 
     [Header("GameObjects")]
@@ -56,6 +58,8 @@ public class GameController : MonoBehaviour
 
     [Header("bools")]
     private bool _slider1, _slider2, _slider3;
+
+    
     
     void Start()
     {
@@ -64,7 +68,7 @@ public class GameController : MonoBehaviour
         _slider3 = false;
     }
 
-    
+
     void Update()
     {
         ScoreTextUpdate();
@@ -112,7 +116,25 @@ public class GameController : MonoBehaviour
         }
 
     }
+    public void BallText()
+    {
+        BallsRemaining.text = currentBall.ToString();
+    }
 
+    public void UpdateBalls()
+    {
+        if (currentBall == maxBalls)
+        {
+            GameOver();
+            Debug.Log("lose");
+        }
+        else
+        {
+            currentBall -= 1;
+        }
+
+
+    }
    
 
     public void Socialising()
@@ -136,7 +158,7 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        //ran out of balls without making it to the top of mountain
+        
     }
 
     public void ItemHit()

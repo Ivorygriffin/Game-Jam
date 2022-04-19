@@ -74,10 +74,12 @@ public class Item : MonoBehaviour
                 Debug.Log("not item type assigned");
                 break;
 
-                //move to item script
+               
 
         }
     }
+
+
 
 
 
