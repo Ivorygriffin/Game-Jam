@@ -3184,6 +3184,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6686383210387332845, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b97780db89b97f24b914bd20412250e8,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ed3168895ea7fb40baebc2ad06d2f1a, type: 3}
 --- !u!4 &1049491763 stripped
@@ -3430,6 +3436,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 135150290}
     m_Modifications:
+    - target: {fileID: 3308659971081636996, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.3851885
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308659971081636996, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -1.746644
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308659971081636996, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.8503244
+      objectReference: {fileID: 0}
     - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
         type: 3}
       propertyPath: m_RootOrder
@@ -3437,13 +3458,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.843828
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 16.843828
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 16.843828
+      objectReference: {fileID: 0}
+    - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 337.99994
+      value: 359.9
       objectReference: {fileID: 0}
     - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 70.000015
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4692593936906349627, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
         type: 3}
@@ -3490,6 +3526,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6686383210387332845, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f54a8e6e4fe12634db076942f549fdfe,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ed3168895ea7fb40baebc2ad06d2f1a, type: 3}
 --- !u!4 &1079690631 stripped
@@ -4651,6 +4693,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6686383210387332845, guid: 9ed3168895ea7fb40baebc2ad06d2f1a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4e8b9b4b1e592674ca68ea11316cf1eb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ed3168895ea7fb40baebc2ad06d2f1a, type: 3}
 --- !u!4 &1326701777 stripped
