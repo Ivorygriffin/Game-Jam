@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4692593936906349627}
   - component: {fileID: 6686383210387332845}
   - component: {fileID: 3308659971081636996}
+  - component: {fileID: 7736187378959613093}
   m_Layer: 0
   m_Name: Peg
   m_TagString: Untagged
@@ -99,3 +100,24 @@ CircleCollider2D:
   m_Offset: {x: -0.059289325, y: -0.0000037561022}
   serializedVersion: 2
   m_Radius: 3.5242727
+--- !u!114 &7736187378959613093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045380976117405489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee42f2888b5c47f49af6a459dd9ae2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 0
+  GC: {fileID: 0}
+  AV: 0
+  APV: 0
+  CV: 0
+  SV: 0
+  TV: 0
+  TVV: 0
+  CS: 0
